@@ -19,3 +19,34 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+button {
+  color: white;
+  background: linear-gradient(
+    to right,
+    #4facfe,
+    #00f2fe
+  ); /* Gradient from left to right */
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background: linear-gradient(
+    to right,
+    #43e97b,
+    #38f9d7
+  ); /* Gradient changes on hover */
+  transform: scale(1.05); /* Slight zoom effect */
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: bold;
+}
